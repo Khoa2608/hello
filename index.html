@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>title</title>
+    </head>
+    <body>
+        <script language="javascript">
+            function xuli()
+            {
+                var tk=document.getElementById("tk").value;
+                var mk=document.getElementById("mk").value;
+                if (tk==="")
+                {
+                    alert("?");
+                    return false;
+                }
+                return true;
+            }
+        </script>
+        <form method="post" action="">
+            <input type="text" id="tk">
+            <input type="text" id="mk">
+            <input type="submit" value=":V" onclick="return xuli()">
+        </form>
+    </body>
+</html>
